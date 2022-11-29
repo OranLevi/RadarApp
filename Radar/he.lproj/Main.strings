@@ -1,0 +1,235 @@
+
+/* Class = "UILabel"; text = "יבשת"; ObjectID = "0N8-yL-KyC"; */
+"0N8-yL-KyC.text" = "יבשת";
+
+/* Class = "UILabel"; text = "DAC Label"; ObjectID = "1LN-Sf-ZqJ"; */
+"1LN-Sf-ZqJ.text" = "DAC Label";
+
+/* Class = "UILabel"; text = "HoursLabel"; ObjectID = "1Qk-nl-Qwi"; */
+"1Qk-nl-Qwi.text" = "HoursLabel";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2rB-yh-ruD"; */
+"2rB-yh-ruD.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Tasks"; ObjectID = "30R-4X-4yd"; */
+"30R-4X-4yd.title" = "משימות";
+
+/* Class = "UILabel"; text = "Continent:"; ObjectID = "3QO-5D-xAb"; */
+"3QO-5D-xAb.text" = "יבשת:";
+
+/* Class = "UILabel"; text = "destinationLabel"; ObjectID = "4VN-ye-xJl"; */
+"4VN-ye-xJl.text" = "destinationLabel";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4j9-tJ-uMp"; */
+"4j9-tJ-uMp.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "deaths:"; ObjectID = "5EM-NF-01N"; */
+"5EM-NF-01N.text" = "מתים:";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5HN-8f-rVf"; */
+"5HN-8f-rVf.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = " CountryLabel"; ObjectID = "5Jg-OB-dnM"; */
+"5Jg-OB-dnM.text" = " CountryLabel";
+
+/* Class = "UITabBarItem"; title = "Flight TimeTable"; ObjectID = "7NB-I6-78r"; */
+"7NB-I6-78r.title" = "לוח טיסות";
+
+/* Class = "UILabel"; text = "There may be travel warnings for this destinationp lease check"; ObjectID = "9cw-BC-1T7"; */
+"9cw-BC-1T7.text" = "There may be travel warnings for this destinationp lease check";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Es3-gQ-FpT"; */
+"Es3-gQ-FpT.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "fax"; ObjectID = "Gz9-IF-Tep"; */
+"Gz9-IF-Tep.text" = "fax";
+
+/* Class = "UIButton"; configuration.title = "Foreign missions in Israel"; ObjectID = "Ihs-6q-Bg5"; */
+"Ihs-6q-Bg5.configuration.title" = "נציגויות זרות בישראל";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ihs-6q-Bg5"; */
+"Ihs-6q-Bg5.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Recommendations:"; ObjectID = "Ixx-o6-6wf"; */
+"Ixx-o6-6wf.text" = "המלצות:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "K02-3f-w25"; */
+"K02-3f-w25.text" = "Label";
+
+/* Class = "UILabel"; text = "FN Label"; ObjectID = "K2Z-Hu-f7G"; */
+"K2Z-Hu-f7G.text" = "FN Label";
+
+/* Class = "UITabBarItem"; title = "COVID"; ObjectID = "LgE-PB-Z6g"; */
+"LgE-PB-Z6g.title" = "COVID";
+
+/* Class = "UIBarButtonItem"; title = "EN"; ObjectID = "M1A-Kg-Rqk"; */
+"M1A-Kg-Rqk.title" = "EN";
+
+/* Class = "UILabel"; text = "Office:"; ObjectID = "O7B-Ac-df0"; */
+"O7B-Ac-df0.text" = "משרד:";
+
+/* Class = "UILabel"; text = "dateLabel"; ObjectID = "PH5-E4-Nji"; */
+"PH5-E4-Nji.text" = "dateLabel";
+
+/* Class = "UILabel"; text = "FlightNumberLabel"; ObjectID = "Q4m-o9-GbI"; */
+"Q4m-o9-GbI.text" = "FlightNumberLabel";
+
+/* Class = "UITabBarItem"; title = "Travel warnings"; ObjectID = "QRD-U5-LKb"; */
+"QRD-U5-LKb.title" = "אזהרות מסע";
+
+/* Class = "UISegmentedControl"; STu-I0-meB.segmentTitles[0] = "All"; ObjectID = "STu-I0-meB"; */
+"STu-I0-meB.segmentTitles[0]" = "הכל";
+
+/* Class = "UISegmentedControl"; STu-I0-meB.segmentTitles[1] = "Landed"; ObjectID = "STu-I0-meB"; */
+"STu-I0-meB.segmentTitles[1]" = "נחיתות";
+
+/* Class = "UISegmentedControl"; STu-I0-meB.segmentTitles[2] = "Departed"; ObjectID = "STu-I0-meB"; */
+"STu-I0-meB.segmentTitles[2]" = "המראות";
+
+/* Class = "UISegmentedControl"; STu-I0-meB.segmentTitles[3] = "Canceled"; ObjectID = "STu-I0-meB"; */
+"STu-I0-meB.segmentTitles[3]" = "בוטלו";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "U33-wg-4fK"; */
+"U33-wg-4fK.text" = "Label";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "UR2-G9-f3n"; */
+"UR2-G9-f3n.text" = "Address";
+
+/* Class = "UILabel"; text = "Opening Hours:"; ObjectID = "UeX-Wh-50z"; */
+"UeX-Wh-50z.text" = "שעות פתיחה:";
+
+/* Class = "UILabel"; text = "TaskLabel"; ObjectID = "Uel-by-oJo"; */
+"Uel-by-oJo.text" = "TaskLabel";
+
+/* Class = "UILabel"; text = "confirmed:"; ObjectID = "V0q-2g-udN"; */
+"V0q-2g-udN.text" = "מאומתים:";
+
+/* Class = "UILabel"; text = "Label2"; ObjectID = "VRX-cM-YoU"; */
+"VRX-cM-YoU.text" = "Label2";
+
+/* Class = "UILabel"; text = "mammad"; ObjectID = "WXs-oN-NWo"; */
+"WXs-oN-NWo.text" = "mammad";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "X6z-4R-dv1"; */
+"X6z-4R-dv1.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "b6i-nG-kGA"; */
+"b6i-nG-kGA.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bIM-yi-Tyu"; */
+"bIM-yi-Tyu.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Info"; ObjectID = "bSr-FZ-HGB"; */
+"bSr-FZ-HGB.title" = "מידע";
+
+/* Class = "UILabel"; text = "destinationLabel"; ObjectID = "cJo-9U-Th1"; */
+"cJo-9U-Th1.text" = "destinationLabel";
+
+/* Class = "UILabel"; text = "Enter your Task:"; ObjectID = "ctf-4E-WwU"; */
+"ctf-4E-WwU.text" = "הקלד את המשימה:";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "d1N-6Y-szI"; */
+"d1N-6Y-szI.title" = "Item";
+
+/* Class = "UITextField"; placeholder = "Flight Number"; ObjectID = "dJn-B3-5Lz"; */
+"dJn-B3-5Lz.placeholder" = "מספר טיסה";
+
+/* Class = "UILabel"; text = "FN Label"; ObjectID = "eVr-wd-DNv"; */
+"eVr-wd-DNv.text" = "FN Label";
+
+/* Class = "UILabel"; text = "TimeLabel"; ObjectID = "ejV-D9-3C8"; */
+"ejV-D9-3C8.text" = "TimeLabel";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eqj-eO-lNQ"; */
+"eqj-eO-lNQ.text" = "Label";
+
+/* Class = "UILabel"; text = "population:"; ObjectID = "f31-cu-hee"; */
+"f31-cu-hee.text" = "אוכלוסיה:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gCg-hv-wZA"; */
+"gCg-hv-wZA.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gZg-IC-YLs"; */
+"gZg-IC-YLs.text" = "Label";
+
+/* Class = "UILabel"; text = "phone"; ObjectID = "gab-xL-DXx"; */
+"gab-xL-DXx.text" = "phone";
+
+/* Class = "UILabel"; text = "Empty"; ObjectID = "hHC-3p-eTM"; */
+"hHC-3p-eTM.text" = "ריק";
+
+/* Class = "UILabel"; text = "AL Label"; ObjectID = "hfd-a8-NVI"; */
+"hfd-a8-NVI.text" = "AL Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "m5h-6W-ooX"; */
+"m5h-6W-ooX.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Country"; ObjectID = "mRq-bw-iJX"; */
+"mRq-bw-iJX.text" = "Country";
+
+/* Class = "UILabel"; text = "Country:"; ObjectID = "mWs-nH-4BX"; */
+"mWs-nH-4BX.text" = "מדינה:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mn2-2W-Nkr"; */
+"mn2-2W-Nkr.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oZU-HW-fPc"; */
+"oZU-HW-fPc.text" = "Label";
+
+/* Class = "UILabel"; text = "phone"; ObjectID = "p92-GX-ZXK"; */
+"p92-GX-ZXK.text" = "phone";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "peH-qh-aSF"; */
+"peH-qh-aSF.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pjq-G1-jgy"; */
+"pjq-G1-jgy.text" = "Label";
+
+/* Class = "UILabel"; text = "DateLabel"; ObjectID = "qEd-E6-JZx"; */
+"qEd-E6-JZx.text" = "DateLabel";
+
+/* Class = "UILabel"; text = "fax"; ObjectID = "r4p-Yt-SNg"; */
+"r4p-Yt-SNg.text" = "fax";
+
+/* Class = "UISearchBar"; rMW-0c-mDY.scopeButtonTitles[0] = "Title"; ObjectID = "rMW-0c-mDY"; */
+"rMW-0c-mDY.scopeButtonTitles[0]" = "Title";
+
+/* Class = "UISearchBar"; rMW-0c-mDY.scopeButtonTitles[1] = "Title"; ObjectID = "rMW-0c-mDY"; */
+"rMW-0c-mDY.scopeButtonTitles[1]" = "Title";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rmV-So-lKu"; */
+"rmV-So-lKu.text" = "Label";
+
+/* Class = "UILabel"; text = "Country:"; ObjectID = "rpI-bA-z28"; */
+"rpI-bA-z28.text" = "מדינה:";
+
+/* Class = "UILabel"; text = "statusLabel"; ObjectID = "sGS-pw-7MX"; */
+"sGS-pw-7MX.text" = "statusLabel";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uBK-ru-bTe"; */
+"uBK-ru-bTe.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "FlightNumberLabel"; ObjectID = "ut4-q3-xE4"; */
+"ut4-q3-xE4.text" = "FlightNumberLabel";
+
+/* Class = "UILabel"; text = "Country"; ObjectID = "vQB-eh-uab"; */
+"vQB-eh-uab.text" = "Country";
+
+/* Class = "UILabel"; text = "Address Lable"; ObjectID = "w3z-48-4R7"; */
+"w3z-48-4R7.text" = "Address Lable";
+
+/* Class = "UIButton"; configuration.title = "Israel's embassies in the world"; ObjectID = "whT-8V-lCt"; */
+"whT-8V-lCt.configuration.title" = "נציגויות ישראל בעולם";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "whT-8V-lCt"; */
+"whT-8V-lCt.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "statusLabel"; ObjectID = "yMP-SP-APd"; */
+"yMP-SP-APd.text" = "statusLabel";
+
+/* Class = "UILabel"; text = " CountryLabel"; ObjectID = "zgt-ln-2nE"; */
+"zgt-ln-2nE.text" = " CountryLabel";
+
+/* Class = "UILabel"; text = " Need a visa to this country:"; ObjectID = "oZC-Gk-0rU"; */
+"oZC-Gk-0rU.text" = "צריך ויזה ליעד זה:";
+
