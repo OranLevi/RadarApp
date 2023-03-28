@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  Radar
+
+  Created by Oran on 07/08/2022.
+  
+*/
+"DESTINATION_ISRAEL_TO" = "ישראל ל";
+"DESTINATION_TIME" = "זמן המראה:";
+"DESTINATION_TO_ISRAEL" = "לישראל";
+"LANDING_TIME" = "זמן נחיתה:";
+"AIRLINES_NAME" = "שם חברת התעופה:";
+"SCHEDULED_TIME" = "זמן מתוכנן:";
+"CURRENT_TIME" = "זמן אמת:";
+"TERMINAL" = "טרמינל:";
+"DESTINATION_COUNTRY" = "יעד (מדינה):";
+"DESTINATION_CITY" = "יעד (עיר):";
+"AIRPORT_CODE_IATA_CODE" = "קוד שדה תעופה (IATA):";
+"COUNTER_AREA" = "דלפק:";
+"N/A" = "לא זמין";
+"STATUS" = "סטאטוס:";
+"TRAVEL_WARNING_MES" = "ייתכן וקיימת אזהרות מסע ליעד זה";
+"TITLE_CHANGE_LANG" = "התראה";
+"MES_CHANGE_LANG" = "על מנת להחליף שפה יש צורך בהפעלה מחדש של האפליקצייה";
+"BUTTON_OK_CHANGE_LANG" = "הפעל מחדש";
+"BUTTON_CANCEL_CHANGE_LANG" = "ביטול";
+"BUTTON_LANG" = "EN";
+"POPULATION" = "אוכלוסייה:";
+"CONFIRMED" = "מאומתים:";
+"LIFE_EXPECTANCY" = "תוחלת חיים:";
+"CONTINENT" = "יבשת:";
+"LOCATION" = "מיקום:";
+"CAPITAL_CITY" = "עיר בירה:";
+"LAST_UPDATED" = "עדכון אחרון:";
+"COUNTRY" = "מדינה:";
+"RECOMMENDATIONS" = "המלצות:";
+"OFFICE_REPORTS" = "משרד מדווח:";
+"ERROR" = "שגיאה";
+"PLEASE_FILL_YOUR_TASK" = "בבקשה מלא את שדה המשימה";
+"PLEASE_FILL_IN_EMPTY_FIELDS" = "אנא מלא את כל השדות הריקים";
+"CHOOSE_DATE" = "בחר תאריך";
+"ENTER_FLIGHT_NUMBER" = "הכנס מספר טיסה";
+"ALERT" = "התראה";
+"NETWORK_ERROR" = "שגיאת רשת: בדוק חיבור לאינטרנט";
+"TASK_FLIGHT_DATE" = "תאריך טיסה";
+"TASK_NUMBER_FALIGH_TASK" = "מספר טיסה / משימה";

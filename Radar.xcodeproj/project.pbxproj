@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		175C31CE2937C5AC00C57FC2 /* CustomHeaderTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175C31CD2937C5AC00C57FC2 /* CustomHeaderTask.swift */; };
+		F30638162893CBF7001325A2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30638152893CBF7001325A2 /* Service.swift */; };
+		F30638182893CCD2001325A2 /* CoreDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30638172893CCD2001325A2 /* CoreDateManager.swift */; };
+		F306381A2893D829001325A2 /* AddTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30638192893D829001325A2 /* AddTasksViewController.swift */; };
+		F30638212893DF6C001325A2 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30638202893DF6C001325A2 /* TaskTableViewCell.swift */; };
+		F30638242893EA44001325A2 /* CoreDataList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30638222893EA44001325A2 /* CoreDataList+CoreDataClass.swift */; };
+		F30638252893EA44001325A2 /* CoreDataList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30638232893EA44001325A2 /* CoreDataList+CoreDataProperties.swift */; };
+		F306382A2893F259001325A2 /* FlightTimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30638292893F259001325A2 /* FlightTimeTableViewController.swift */; };
+		F306382E2893FFCF001325A2 /* FlightTimeTableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306382D2893FFCF001325A2 /* FlightTimeTableCollectionViewCell.swift */; };
+		F3063830289408FE001325A2 /* FlightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F306382F289408FE001325A2 /* FlightModel.swift */; };
+		F3063834289420F0001325A2 /* FlightTimeTableDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3063833289420F0001325A2 /* FlightTimeTableDetailsViewController.swift */; };
+		F31F0D89289C0BBA00C1BAB7 /* FlightTimeTableDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F0D88289C0BBA00C1BAB7 /* FlightTimeTableDetailsTableViewCell.swift */; };
+		F31F79B2289D12A9002E1899 /* CovidDeatilesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F79B1289D12A9002E1899 /* CovidDeatilesTableViewCell.swift */; };
+		F31F79B4289D12CE002E1899 /* CovidDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F79B3289D12CE002E1899 /* CovidDetailsViewController.swift */; };
+		F31F79B8289D43BC002E1899 /* ForeignMissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F79B7289D43BC002E1899 /* ForeignMissionsViewController.swift */; };
+		F31F79BC289D483D002E1899 /* ForeignMissionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F79BB289D483D002E1899 /* ForeignMissionsTableViewCell.swift */; };
+		F31F79C2289D7B4A002E1899 /* TaskDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F79C1289D7B4A002E1899 /* TaskDetailsViewController.swift */; };
+		F31F79C5289D9133002E1899 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = F31F79C4289D9133002E1899 /* SwiftSoup */; };
+		F32AABC3289AE0C500621B5E /* EmbassiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32AABC2289AE0C500621B5E /* EmbassiesTableViewCell.swift */; };
+		F32AABCB289B019000621B5E /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32AABCA289B019000621B5E /* InformationViewController.swift */; };
+		F3334D6F289456E70071D4C9 /* TravelWarningsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3334D6E289456E70071D4C9 /* TravelWarningsModel.swift */; };
+		F3334D75289459A60071D4C9 /* TravelWarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3334D74289459A60071D4C9 /* TravelWarningViewController.swift */; };
+		F3334D7728945DBC0071D4C9 /* TravelWarningCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3334D7628945DBC0071D4C9 /* TravelWarningCollectionViewCell.swift */; };
+		F3334D82289471AF0071D4C9 /* CovidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3334D81289471AF0071D4C9 /* CovidViewController.swift */; };
+		F3334D86289473680071D4C9 /* Alert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3334D85289473680071D4C9 /* Alert.storyboard */; };
+		F3334D902894742D0071D4C9 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3334D8F2894742D0071D4C9 /* AlertViewController.swift */; };
+		F3334D96289529010071D4C9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3334D95289529010071D4C9 /* Extension.swift */; };
+		F3334D9B28955B760071D4C9 /* CovidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3334D9A28955B760071D4C9 /* CovidModel.swift */; };
+		F3334D9D28956CE30071D4C9 /* CovidCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3334D9C28956CE30071D4C9 /* CovidCollectionViewCell.swift */; };
+		F374B20E289FC7CC003C15CA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F374B210289FC7CC003C15CA /* Localizable.strings */; };
+		F384997B2892854000573A97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F384997A2892854000573A97 /* AppDelegate.swift */; };
+		F384997D2892854000573A97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F384997C2892854000573A97 /* SceneDelegate.swift */; };
+		F384997F2892854000573A97 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F384997E2892854000573A97 /* TasksViewController.swift */; };
+		F38499822892854000573A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38499802892854000573A97 /* Main.storyboard */; };
+		F38499852892854000573A97 /* Radar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F38499832892854000573A97 /* Radar.xcdatamodeld */; };
+		F38499872892854200573A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38499862892854200573A97 /* Assets.xcassets */; };
+		F384998A2892854200573A97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38499882892854200573A97 /* LaunchScreen.storyboard */; };
+		F384CD96289954610060E69D /* ForeignMissionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F384CD95289954610060E69D /* ForeignMissionsModel.swift */; };
+		F3BB6D26289859A3005BC93E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB6D25289859A3005BC93E /* NetworkService.swift */; };
+		F3BB6D2828985E0C005BC93E /* EmbassiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB6D2728985E0C005BC93E /* EmbassiesModel.swift */; };
+		F3BB6D2A28986169005BC93E /* EmbassiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB6D2928986169005BC93E /* EmbassiesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		175C31CD2937C5AC00C57FC2 /* CustomHeaderTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderTask.swift; sourceTree = "<group>"; };
+		F30638152893CBF7001325A2 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		F30638172893CCD2001325A2 /* CoreDateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDateManager.swift; sourceTree = "<group>"; };
+		F30638192893D829001325A2 /* AddTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTasksViewController.swift; sourceTree = "<group>"; };
+		F30638202893DF6C001325A2 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		F30638222893EA44001325A2 /* CoreDataList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F30638232893EA44001325A2 /* CoreDataList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F30638292893F259001325A2 /* FlightTimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTimeTableViewController.swift; sourceTree = "<group>"; };
+		F306382D2893FFCF001325A2 /* FlightTimeTableCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTimeTableCollectionViewCell.swift; sourceTree = "<group>"; };
+		F306382F289408FE001325A2 /* FlightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightModel.swift; sourceTree = "<group>"; };
+		F3063833289420F0001325A2 /* FlightTimeTableDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTimeTableDetailsViewController.swift; sourceTree = "<group>"; };
+		F31F0D88289C0BBA00C1BAB7 /* FlightTimeTableDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTimeTableDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		F31F79B1289D12A9002E1899 /* CovidDeatilesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidDeatilesTableViewCell.swift; sourceTree = "<group>"; };
+		F31F79B3289D12CE002E1899 /* CovidDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidDetailsViewController.swift; sourceTree = "<group>"; };
+		F31F79B7289D43BC002E1899 /* ForeignMissionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignMissionsViewController.swift; sourceTree = "<group>"; };
+		F31F79BB289D483D002E1899 /* ForeignMissionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignMissionsTableViewCell.swift; sourceTree = "<group>"; };
+		F31F79C1289D7B4A002E1899 /* TaskDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsViewController.swift; sourceTree = "<group>"; };
+		F32AABC2289AE0C500621B5E /* EmbassiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesTableViewCell.swift; sourceTree = "<group>"; };
+		F32AABCA289B019000621B5E /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		F3334D6E289456E70071D4C9 /* TravelWarningsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelWarningsModel.swift; sourceTree = "<group>"; };
+		F3334D74289459A60071D4C9 /* TravelWarningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelWarningViewController.swift; sourceTree = "<group>"; };
+		F3334D7628945DBC0071D4C9 /* TravelWarningCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelWarningCollectionViewCell.swift; sourceTree = "<group>"; };
+		F3334D81289471AF0071D4C9 /* CovidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidViewController.swift; sourceTree = "<group>"; };
+		F3334D85289473680071D4C9 /* Alert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alert.storyboard; sourceTree = "<group>"; };
+		F3334D8F2894742D0071D4C9 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		F3334D95289529010071D4C9 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		F3334D9A28955B760071D4C9 /* CovidModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidModel.swift; sourceTree = "<group>"; };
+		F3334D9C28956CE30071D4C9 /* CovidCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidCollectionViewCell.swift; sourceTree = "<group>"; };
+		F3371F89289E9A6C00830441 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3471968289FE88900C75D7F /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Main.strings; sourceTree = "<group>"; };
+		F3471969289FE88900C75D7F /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F347196A289FE88900C75D7F /* he */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = he; path = he.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F374B20F289FC7CC003C15CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F374B213289FE779003C15CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F38499772892854000573A97 /* Radar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F384997A2892854000573A97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F384997C2892854000573A97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F384997E2892854000573A97 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		F38499842892854000573A97 /* Radar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Radar.xcdatamodel; sourceTree = "<group>"; };
+		F38499862892854200573A97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F384998B2892854200573A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F384CD95289954610060E69D /* ForeignMissionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignMissionsModel.swift; sourceTree = "<group>"; };
+		F3BB6D25289859A3005BC93E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F3BB6D2728985E0C005BC93E /* EmbassiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesModel.swift; sourceTree = "<group>"; };
+		F3BB6D2928986169005BC93E /* EmbassiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbassiesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F38499742892854000573A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31F79C5289D9133002E1899 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F306381F2893DCE2001325A2 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F30638172893CCD2001325A2 /* CoreDateManager.swift */,
+				F30638222893EA44001325A2 /* CoreDataList+CoreDataClass.swift */,
+				F30638232893EA44001325A2 /* CoreDataList+CoreDataProperties.swift */,
+				F38499832892854000573A97 /* Radar.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		F30638272893EFD4001325A2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F30638292893F259001325A2 /* FlightTimeTableViewController.swift */,
+				F3334D74289459A60071D4C9 /* TravelWarningViewController.swift */,
+				F3334D81289471AF0071D4C9 /* CovidViewController.swift */,
+				F32AABCA289B019000621B5E /* InformationViewController.swift */,
+				F384997E2892854000573A97 /* TasksViewController.swift */,
+				F30638192893D829001325A2 /* AddTasksViewController.swift */,
+				F3BB6D2928986169005BC93E /* EmbassiesViewController.swift */,
+				F31F79B7289D43BC002E1899 /* ForeignMissionsViewController.swift */,
+				F3334D9828953CB30071D4C9 /* ViewControllersDeatils */,
+				F30638282893EFFD001325A2 /* Cells */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F30638282893EFFD001325A2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F31F79BE289D5253002E1899 /* ForeignMissions */,
+				F384CDA528996A530060E69D /* Embassies */,
+				F3334DA228957B980071D4C9 /* TravelWarning */,
+				F3334D68289448060071D4C9 /* FlightTimeTableDetails */,
+				F3334D65289447DF0071D4C9 /* FlightTimeTable */,
+				F3334D62289447AB0071D4C9 /* Task */,
+				F3334DA028957B540071D4C9 /* Covid */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F31F79BE289D5253002E1899 /* ForeignMissions */ = {
+			isa = PBXGroup;
+			children = (
+				F31F79BB289D483D002E1899 /* ForeignMissionsTableViewCell.swift */,
+			);
+			path = ForeignMissions;
+			sourceTree = "<group>";
+		};
+		F3334D62289447AB0071D4C9 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				175C31CD2937C5AC00C57FC2 /* CustomHeaderTask.swift */,
+				F30638202893DF6C001325A2 /* TaskTableViewCell.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		F3334D65289447DF0071D4C9 /* FlightTimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				F306382D2893FFCF001325A2 /* FlightTimeTableCollectionViewCell.swift */,
+			);
+			path = FlightTimeTable;
+			sourceTree = "<group>";
+		};
+		F3334D68289448060071D4C9 /* FlightTimeTableDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F31F0D88289C0BBA00C1BAB7 /* FlightTimeTableDetailsTableViewCell.swift */,
+			);
+			path = FlightTimeTableDetails;
+			sourceTree = "<group>";
+		};
+		F3334D69289448600071D4C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F306382F289408FE001325A2 /* FlightModel.swift */,
+				F3334D6E289456E70071D4C9 /* TravelWarningsModel.swift */,
+				F3334D9A28955B760071D4C9 /* CovidModel.swift */,
+				F3BB6D2728985E0C005BC93E /* EmbassiesModel.swift */,
+				F384CD95289954610060E69D /* ForeignMissionsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3334D9728953C500071D4C9 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				F3334D85289473680071D4C9 /* Alert.storyboard */,
+				F3334D8F2894742D0071D4C9 /* AlertViewController.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		F3334D9828953CB30071D4C9 /* ViewControllersDeatils */ = {
+			isa = PBXGroup;
+			children = (
+				F31F79C1289D7B4A002E1899 /* TaskDetailsViewController.swift */,
+				F3063833289420F0001325A2 /* FlightTimeTableDetailsViewController.swift */,
+				F31F79B3289D12CE002E1899 /* CovidDetailsViewController.swift */,
+			);
+			path = ViewControllersDeatils;
+			sourceTree = "<group>";
+		};
+		F3334D9928953CF40071D4C9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F30638152893CBF7001325A2 /* Service.swift */,
+				F3BB6D25289859A3005BC93E /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F3334DA028957B540071D4C9 /* Covid */ = {
+			isa = PBXGroup;
+			children = (
+				F3334D9C28956CE30071D4C9 /* CovidCollectionViewCell.swift */,
+				F31F79B1289D12A9002E1899 /* CovidDeatilesTableViewCell.swift */,
+			);
+			path = Covid;
+			sourceTree = "<group>";
+		};
+		F3334DA228957B980071D4C9 /* TravelWarning */ = {
+			isa = PBXGroup;
+			children = (
+				F3334D7628945DBC0071D4C9 /* TravelWarningCollectionViewCell.swift */,
+			);
+			path = TravelWarning;
+			sourceTree = "<group>";
+		};
+		F384996E2892854000573A97 = {
+			isa = PBXGroup;
+			children = (
+				F38499792892854000573A97 /* Radar */,
+				F38499782892854000573A97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F38499782892854000573A97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F38499772892854000573A97 /* Radar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F38499792892854000573A97 /* Radar */ = {
+			isa = PBXGroup;
+			children = (
+				F384997A2892854000573A97 /* AppDelegate.swift */,
+				F384997C2892854000573A97 /* SceneDelegate.swift */,
+				F3334D95289529010071D4C9 /* Extension.swift */,
+				F3334D9928953CF40071D4C9 /* Service */,
+				F3334D69289448600071D4C9 /* Model */,
+				F30638272893EFD4001325A2 /* ViewControllers */,
+				F306381F2893DCE2001325A2 /* CoreData */,
+				F3334D9728953C500071D4C9 /* Alert */,
+				F38499862892854200573A97 /* Assets.xcassets */,
+				F374B210289FC7CC003C15CA /* Localizable.strings */,
+				F38499802892854000573A97 /* Main.storyboard */,
+				F38499882892854200573A97 /* LaunchScreen.storyboard */,
+				F384998B2892854200573A97 /* Info.plist */,
+			);
+			path = Radar;
+			sourceTree = "<group>";
+		};
+		F384CDA528996A530060E69D /* Embassies */ = {
+			isa = PBXGroup;
+			children = (
+				F32AABC2289AE0C500621B5E /* EmbassiesTableViewCell.swift */,
+			);
+			path = Embassies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F38499762892854000573A97 /* Radar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F384998E2892854200573A97 /* Build configuration list for PBXNativeTarget "Radar" */;
+			buildPhases = (
+				F38499732892854000573A97 /* Sources */,
+				F38499742892854000573A97 /* Frameworks */,
+				F38499752892854000573A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Radar;
+			packageProductDependencies = (
+				F31F79C4289D9133002E1899 /* SwiftSoup */,
+			);
+			productName = Radar;
+			productReference = F38499772892854000573A97 /* Radar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F384996F2892854000573A97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F38499762892854000573A97 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = F38499722892854000573A97 /* Build configuration list for PBXProject "Radar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				he,
+			);
+			mainGroup = F384996E2892854000573A97;
+			packageReferences = (
+				F31F79C3289D9133002E1899 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			productRefGroup = F38499782892854000573A97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F38499762892854000573A97 /* Radar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F38499752892854000573A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F374B20E289FC7CC003C15CA /* Localizable.strings in Resources */,
+				F384998A2892854200573A97 /* LaunchScreen.storyboard in Resources */,
+				F38499872892854200573A97 /* Assets.xcassets in Resources */,
+				F38499822892854000573A97 /* Main.storyboard in Resources */,
+				F3334D86289473680071D4C9 /* Alert.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F38499732892854000573A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BB6D26289859A3005BC93E /* NetworkService.swift in Sources */,
+				F3334D9D28956CE30071D4C9 /* CovidCollectionViewCell.swift in Sources */,
+				F3063834289420F0001325A2 /* FlightTimeTableDetailsViewController.swift in Sources */,
+				F3334D9B28955B760071D4C9 /* CovidModel.swift in Sources */,
+				F38499852892854000573A97 /* Radar.xcdatamodeld in Sources */,
+				F306382E2893FFCF001325A2 /* FlightTimeTableCollectionViewCell.swift in Sources */,
+				F384997F2892854000573A97 /* TasksViewController.swift in Sources */,
+				F3BB6D2828985E0C005BC93E /* EmbassiesModel.swift in Sources */,
+				F30638252893EA44001325A2 /* CoreDataList+CoreDataProperties.swift in Sources */,
+				F384CD96289954610060E69D /* ForeignMissionsModel.swift in Sources */,
+				F31F79B8289D43BC002E1899 /* ForeignMissionsViewController.swift in Sources */,
+				F30638242893EA44001325A2 /* CoreDataList+CoreDataClass.swift in Sources */,
+				F32AABCB289B019000621B5E /* InformationViewController.swift in Sources */,
+				F3334D902894742D0071D4C9 /* AlertViewController.swift in Sources */,
+				F3334D6F289456E70071D4C9 /* TravelWarningsModel.swift in Sources */,
+				F31F79C2289D7B4A002E1899 /* TaskDetailsViewController.swift in Sources */,
+				F31F79B2289D12A9002E1899 /* CovidDeatilesTableViewCell.swift in Sources */,
+				F3BB6D2A28986169005BC93E /* EmbassiesViewController.swift in Sources */,
+				F31F79BC289D483D002E1899 /* ForeignMissionsTableViewCell.swift in Sources */,
+				F306381A2893D829001325A2 /* AddTasksViewController.swift in Sources */,
+				F3334D75289459A60071D4C9 /* TravelWarningViewController.swift in Sources */,
+				F32AABC3289AE0C500621B5E /* EmbassiesTableViewCell.swift in Sources */,
+				175C31CE2937C5AC00C57FC2 /* CustomHeaderTask.swift in Sources */,
+				F31F79B4289D12CE002E1899 /* CovidDetailsViewController.swift in Sources */,
+				F3063830289408FE001325A2 /* FlightModel.swift in Sources */,
+				F30638182893CCD2001325A2 /* CoreDateManager.swift in Sources */,
+				F384997B2892854000573A97 /* AppDelegate.swift in Sources */,
+				F3334D7728945DBC0071D4C9 /* TravelWarningCollectionViewCell.swift in Sources */,
+				F30638162893CBF7001325A2 /* Service.swift in Sources */,
+				F306382A2893F259001325A2 /* FlightTimeTableViewController.swift in Sources */,
+				F384997D2892854000573A97 /* SceneDelegate.swift in Sources */,
+				F3334D82289471AF0071D4C9 /* CovidViewController.swift in Sources */,
+				F31F0D89289C0BBA00C1BAB7 /* FlightTimeTableDetailsTableViewCell.swift in Sources */,
+				F3334D96289529010071D4C9 /* Extension.swift in Sources */,
+				F30638212893DF6C001325A2 /* TaskTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F374B210289FC7CC003C15CA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F374B20F289FC7CC003C15CA /* en */,
+				F3471969289FE88900C75D7F /* he */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F38499802892854000573A97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F374B213289FE779003C15CA /* Base */,
+				F3471968289FE88900C75D7F /* he */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F38499882892854200573A97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3371F89289E9A6C00830441 /* en */,
+				F347196A289FE88900C75D7F /* he */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F384998C2892854200573A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F384998D2892854200573A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F384998F2892854200573A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH7VUP2CH4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Radar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LYRadar;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Oran.LYRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F38499902892854200573A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH7VUP2CH4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Radar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LYRadar;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Oran.LYRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F38499722892854000573A97 /* Build configuration list for PBXProject "Radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F384998C2892854200573A97 /* Debug */,
+				F384998D2892854200573A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F384998E2892854200573A97 /* Build configuration list for PBXNativeTarget "Radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F384998F2892854200573A97 /* Debug */,
+				F38499902892854200573A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F31F79C3289D9133002E1899 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F31F79C4289D9133002E1899 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F31F79C3289D9133002E1899 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		F38499832892854000573A97 /* Radar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F38499842892854000573A97 /* Radar.xcdatamodel */,
+			);
+			currentVersion = F38499842892854000573A97 /* Radar.xcdatamodel */;
+			path = Radar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F384996F2892854000573A97 /* Project object */;
+}

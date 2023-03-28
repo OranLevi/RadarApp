@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  Radar
+
+  Created by Oran on 07/08/2022.
+  
+*/
+"DESTINATION_ISRAEL_TO" = "Israel to";
+"DESTINATION_TIME" = "Departure time:";
+"DESTINATION_TO_ISRAEL" = "to Israel";
+"LANDING_TIME" = "Landing time:";
+"AIRLINES_NAME" = "Airlines Name:";
+"SCHEDULED_TIME" = "Scheduled time:";
+"CURRENT_TIME" = "Current time:";
+"TERMINAL" = "Terminal:";
+"DESTINATION_COUNTRY" = "Destination (country):";
+"DESTINATION_CITY" = "Destination (city):";
+"AIRPORT_CODE_IATA_CODE" = "Airport Code (IATA code):";
+"COUNTER_AREA" = "Counter Area:";
+"N/A" = "N/A";
+"STATUS" = "Status:";
+"TRAVEL_WARNING_MES" = "There may be travel warnings for this destination lease check";
+"TITLE_CHANGE_LANG" = "Alert";
+"MES_CHANGE_LANG" = "to change the language, you need to restart the app.";
+"BUTTON_OK_CHANGE_LANG" = "Exit and restart";
+"BUTTON_CANCEL_CHANGE_LANG" = "Cancel";
+"BUTTON_LANG" = "HE";
+"POPULATION" = "Population:";
+"CONFIRMED" = "Confirmed:";
+"LIFE_EXPECTANCY" = "Life expectancy:";
+"CONTINENT" = "Continent:";
+"LOCATION" = "Location:";
+"CAPITAL_CITY" = "Capital city:";
+"LAST_UPDATED" = "Last updated:";
+"COUNTRY" = "Country:";
+"RECOMMENDATIONS" = "Recommendations:";
+"OFFICE_REPORTS" = "Office reports:";
+"ERROR" = "Error";
+"PLEASE_FILL_YOUR_TASK" = "Please fill your task:";
+"PLEASE_FILL_IN_EMPTY_FIELDS" = "המלצותPlease fill in empty fields";
+"CHOOSE_DATE" = "Choose date";
+"ENTER_FLIGHT_NUMBER" = "Enter Flight Number";
+"ALERT" = "ALERT";
+"NETWORK_ERROR" = "Network error Check your network connection";
+"TASK_FLIGHT_DATE" = "Flight Date";
+"TASK_NUMBER_FALIGH_TASK" = "Flight Number / Task";
